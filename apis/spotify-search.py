@@ -7,9 +7,9 @@ from json.decoder import JSONDecodeError
 from spotipy.oauth2 import SpotifyOAuth
 
 # Create the spotify object
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="9285aea49022425faefd906515ac3a4b",
-                                               client_secret="8276b6444bb24764b7e650ae3e1b1eca",
-                                               redirect_uri="https://www.google.com/",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="YOUR CLIENT ID",
+                                               client_secret="YOUR SECRET ID",
+                                               redirect_uri="YOUR REDIRECT URI",
                                                scope="user-library-read"))
 
 # get the current user
