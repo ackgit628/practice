@@ -24,7 +24,7 @@ while True:
     print()
     print("1 Search for a track")
     print("2 Search for an artist")
-    print("9 Exit")
+    print("0 Exit")
 
     choice = input("Your choice: ")
 
@@ -119,7 +119,7 @@ while True:
             webbrowser.open(trackArt[int(songSelection)])
 
     # exit spotipy
-    if choice == "9":
+    if choice == "0":
         break
 
 
