@@ -14,7 +14,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="YOUR CLIENT ID",
 
 # get the current user
 user = sp.current_user()
-print(json.dumps(user, sort_keys=True, indent=4))
+# print(json.dumps(user, sort_keys=True, indent=4))
 
 displayName = user['display_name']
 
@@ -24,7 +24,7 @@ while True:
     print()
     print("1 Search for a track")
     print("2 Search for an artist")
-    print("0 Exit")
+    print("9 Exit")
 
     choice = input("Your choice: ")
 
@@ -119,7 +119,7 @@ while True:
             webbrowser.open(trackArt[int(songSelection)])
 
     # exit spotipy
-    if choice == "0":
+    if choice == "9":
         break
 
 
