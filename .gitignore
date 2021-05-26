@@ -1,7 +1,4 @@
-spotipy-app/spotify-app-credentials.py
-spotipy-app/.cache
-spotipy-app/test-api.py
-spotipy-app/test-api-2.py
 js/
 python/
+spotipy-app/
 ComputeAgeProject/
